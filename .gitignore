@@ -1,0 +1,23 @@
+# Local account registry and runtime state
+config/accounts.json
+**/accounts.json
+config/*.json.tmp*
+logs/
+work/
+.codex-appserver-test-home/
+
+# Authentication and local application data
+**/auth.json
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.db-wal
+**/*.db-shm
+
+# PowerShell and Windows transient files
+*.tmp
+*.log
+*.bak
+*.user
+Thumbs.db
+
